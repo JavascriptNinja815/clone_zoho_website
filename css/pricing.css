@@ -1,0 +1,279 @@
+.pricing-banner {
+    z-index: -1;
+    height: 450px;
+    background: linear-gradient(#9ce4ff,#b3fcff)!important;
+}
+.pricing-page-wrap {
+    margin: -410px auto 0;
+    padding: 0 30px;
+    max-width: 1200px;
+   	overflow: hidden;
+}
+.pricing-page-wrap h1 {
+    font-family: proxima_novasemibold,proxima_nova_rgregular,Arial,Helvetica,sans-serif;
+}
+
+.pricing-part h1, .pricing-page-wrap h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    line-height: 35px;
+    max-width: 700px;
+    margin: 30px auto 30px;
+    text-align: center;
+}
+.pricing-page-inner-wrap.col2 {
+  max-width: 760px;
+}
+.pricing-page-inner-wrap.col2 .price-block {
+  width: 50%;
+}
+/**********************************
+  Three Column
+**********************************/
+.pricing-page-inner-wrap.col3 {
+  max-width: 980px;
+}
+.pricing-page-inner-wrap.col3 .price-block {
+  width: 33.33%;
+}
+.price-table {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px !important;
+    padding-top: 30px;
+}
+.price-block {
+    float: left;
+    background: #fff;
+    float: left;
+    text-align: center;
+}
+.price-block-inner-sides {
+    border: 1px solid rgba(0,0,0,.1);
+}
+.price-block h3 {
+    font-size: 24px;
+    padding-top: 55px;
+    font-family: proxima_novasemibold,proxima_nova_rgregular,Arial,Helvetica,sans-serif;
+    color: #333;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0px 0px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.pricing-img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.pricing-icon-free {
+    background-position: -70px -104px;
+    width: 107px;
+    height: 80px;
+}
+[class*=pricing-icon-] {
+    background-image: url(../assets/plans-sprite-1x.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    background-size: 1300px 247px;
+}
+.price-block .main-price {
+    border-bottom: none;
+    padding: 10px 10% 7%;
+}
+.main-price .price-figure {
+    color: #333!important;
+    letter-spacing: normal!important;
+}
+.price-figure, .price-figure i, .price-figure span[name="priceChange"], .price-figure span[name="priceChangeEU"] {
+    color: #03a9f5 !important;
+    font-size: 60px !important;
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 55px;
+    display: inline-block;
+}
+.price-figure {
+    margin-bottom: 10px;
+    margin-left: -12px;
+}
+.main-price sup {
+    font-size: 30px;
+    font-weight: lighter;
+    vertical-align: super;
+}
+.main-price .price-value {
+    display: inline;
+}
+.main-price span {
+    display: block;
+}
+.price-term {
+    font-size: 15px;
+    line-height: 30px;
+    color: #555;
+    margin-bottom: 15px;
+    min-height: 19px;
+}
+.price-figure .goal {
+    margin-left: 12px;
+}
+.goal a {
+	   font-size: 16px;
+    line-height: 34px;
+    background-color: #00b3ff!important;
+    background: #03a9f5 !important;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    padding: 10px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.price-features {
+    padding: 20px 10%;
+    text-align: left;
+    min-height: 90px;
+}
+.price-features li {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    position: relative;
+    line-height: 22px;
+}
+.price-features li p {
+    font-size: 16px;
+    line-height: 27px;
+    padding-left: 30px;
+    color: #333;
+}
+.price-features li p:before {
+    content: "";
+    display: inline-block;
+    background-image: url(../assets/tick.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+.price-table .price-block.pro-plan {
+    border-top: 5px solid #00b3ff;
+    margin-top: -5px;
+}
+[class*=price-block-] {
+    height: 650px;
+}
+.price-block-inner {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.pricing-icon-basic {
+    background-position: -271px -100px;
+    width: 151px;
+    height: 80px;
+}
+.pricing-icon-standard {
+    background-position: -508px -55px;
+    width: 163px;
+    height: 120px;
+}
+
+.subs-container {
+    max-width: 1200px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+.subs1-container, .subs2-container {
+    display: inline-block;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+}
+.subs1-container {
+    width: 62%;
+    padding: 20px 0;
+}
+.pricing-icon-enterprise {
+    background-position: -747px -55px;
+    width: 225px;
+    height: 119px;
+    margin: 10px;
+    vertical-align: middle;
+}
+.subs-desc {
+    display: inline-block;
+    max-width: 63%;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.subs-desc .title {
+    font-family: proxima_novasemibold,proxima_nova_rgregular,Arial,Helvetica,sans-serif;
+    text-align: left;
+    font-size: 24px;
+}
+.subs-desc p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.subs-desc .button {
+    margin-top: 0;
+    padding: 5px 27px;
+    font-size: 18px;
+    text-transform: none;
+    line-height: 40px;
+    cursor: pointer;
+}
+.main .button, .signupnow-button {
+    display: inline-block!important;
+}
+.button, .signupnow-button a, .get-started a {
+    background: #f0483e;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    padding: 0 60px;
+    margin: 25px 0 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+.subs2-container {
+    margin-left: 2.5%;
+    padding: 0 20px;
+    width: 31.2%;
+    background-color: #fff6da;
+}
+.pricing-icon-accountant {
+    background-position: -1078px -67px;
+    width: 111px;
+    height: 113px;
+    vertical-align: middle;
+}
+.subs2-container .subs-desc .contact-us {
+    color: #3c73dc;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+.pricing-page-inner-wrap.col3 {
+    max-width: 980px;
+    margin: 0 auto;
+}

@@ -1,0 +1,434 @@
+/*~~~~~~~~~~ LIGHT ~~~~~~~~~~*/
+/*@font-face {
+    font-family: 'proxima_novalight';
+    src: url('/lp/fonts/proxima-nova/proxima_nova-light-webfont.eot');
+    src: url('/lp/fonts/proxima-nova/proxima_nova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/lp/fonts/proxima-nova/proxima_nova-light-webfont.woff2') format('woff2'),
+         url('/lp/fonts/proxima-nova/proxima_nova-light-webfont.woff') format('woff'),
+         url('/lp/fonts/proxima-nova/proxima_nova-light-webfont.ttf') format('truetype'),
+         url('/lp/fonts/proxima-nova/proxima_nova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+/*~~~~~~~~~~ REGULAR ~~~~~~~~~~*/
+/*@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('/lp/fonts/proxima-nova/proxima_nova-regular-webfont.eot');
+    src: url('/lp/fonts/proxima-nova/proxima_nova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/lp/fonts/proxima-nova/proxima_nova-regular-webfont.woff2') format('woff2'),
+         url('/lp/fonts/proxima-nova/proxima_nova-regular-webfont.woff') format('woff'),
+         url('/lp/fonts/proxima-nova/proxima_nova-regular-webfont.ttf') format('truetype'),
+         url('/lp/fonts/proxima-nova/proxima_nova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+/*~~~~~~~~~~ SEMI BOLD ~~~~~~~~~~*/
+/*@font-face {
+    font-family: 'proxima_novasemibold';
+    src: url('/lp/fonts/proxima-nova/proxima_nova-semibold-webfont.eot');
+    src: url('/lp/fonts/proxima-nova/proxima_nova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/lp/fonts/proxima-nova/proxima_nova-semibold-webfont.woff2') format('woff2'),
+         url('/lp/fonts/proxima-nova/proxima_nova-semibold-webfont.woff') format('woff'),
+         url('/lp/fonts/proxima-nova/proxima_nova-semibold-webfont.ttf') format('truetype'),
+         url('/lp/fonts/proxima-nova/proxima_nova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+/*~~~~~~~~~~ BOLD ~~~~~~~~~~*/
+/*@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('/lp/fonts/proxima-nova/proxima_nova-bold-webfont.eot');
+    src: url('/lp/fonts/proxima-nova/proxima_nova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/lp/fonts/proxima-nova/proxima_nova-bold-webfont.woff2') format('woff2'),
+         url('/lp/fonts/proxima-nova/proxima_nova-bold-webfont.woff') format('woff'),
+         url('/lp/fonts/proxima-nova/proxima_nova-bold-webfont.ttf') format('truetype'),
+         url('/lp/fonts/proxima-nova/proxima_nova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+body {
+  font-family: 'proxima_novalight', 'Source Sans Pro', Arial, Helvetica, sans-serif !important;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+a {
+    text-decoration: none;
+    border: none;
+}
+ul {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+  text-shadow: none;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  line-height: 26px;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+}
+p {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none
+}
+.header {
+    background: #fff;
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  min-height: 35px;
+  position: relative;
+  z-index: 999;
+  line-height: 1.6;
+  margin-top: -8px;
+}
+.header-wrap {
+    margin-top: 5px;
+}
+    .zgh-brand {
+        padding: 5px 10px 3px;
+        float: left;
+    }
+    .zgh-brand a {
+        display: inline-block;
+      background: url(../assets/zgh-sprite-2x.png) no-repeat 0 0/ 100px auto;
+      width: 70px;
+      height: 25px;
+      text-indent: -99999px;
+      font-size: 0;
+      vertical-align: top;
+    }
+    .zgh-nav {
+    padding: 5px 0 0 15px;
+    text-align: left;
+    float: left;
+    display: flex;
+    }
+    .symbol {
+        transform: rotate(90deg);
+        margin-left: 5px;
+    }
+    .zgh-nav ul, .zgh-userLink ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+    }
+    .zgh-nav>ul {
+    position: relative;
+    }
+    .zgh-nav>ul>li {
+    display: inline-block;
+    margin-right: 25px;
+    }
+    .zgh-nav ul li {
+    margin-bottom: 0;
+    }
+    .zgh-nav>ul .zgh-megaMenu>a {
+    position: relative;
+    display: inline-block;
+    padding: 7px 15px 7px 0;
+    font-family: 'proxima_novasemibold', Arial, Helvetica, sans-serif;
+  }
+    .zgh-nav>ul>li>a {
+    font-size: 14px;
+    color: #000;
+    display: inline-block;
+    padding: 7px 0;
+    line-height: 20px;
+    }
+    .zgh-megaMenuBox {
+    position: absolute;
+    top: 27px;
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+    -webkit-transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+    -moz-transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+    -ms-transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+    -o-transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+    }
+    .zgh-products .zgh-megaMenuInner {
+    display: table;
+    table-layout: fixed;
+    width: 920px;
+    }
+
+    .zgh-megaMenuInner {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    margin-top: 15px;
+    }
+    .zgh-products .zgh-megaMenuCat {
+    width: 22%;
+    padding: 0;
+    border-right: 1px solid #e0e0e0;
+    border-top: 2px solid #03a9f5;
+    }
+    .zgh-products .zgh-megaMenuInner>* {
+    display: table-cell;
+    vertical-align: top;
+    }
+    .zgh-products .zgh-megaMenuCat li {
+    font-size: 14px;
+    font-family: 'proxima_novasemibold', Arial, Helvetica, sans-serif;
+    padding: 13px 0 13px 15px;
+    cursor: pointer;
+    background: #fff;
+    transition: background .1s ease-in-out;
+    -webkit-transition: background .1s ease-in-out;
+    -moz-transition: background .1s ease-in-out;
+    -ms-transition: background .1s ease-in-out;
+    -o-transition: background .1s ease-in-out;
+    }
+    .zgh-products .zgh-megaMenuCat li.active {
+    background: #02a9f5;
+    color: #fff;
+    position: relative;
+    }
+    .zgh-products .zgh-megaMenuPro {
+    width: 78%;
+    position: relative;
+    }
+    .zgh-products .zgh-megaMenuPro>div {
+    padding: 20px;
+    overflow: hidden;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    }
+    .zmenu-menuProBox>div {
+    width: 33.33%;
+    float: left;
+    }
+    .zmenu-moreBox {
+    text-align: center;
+    width: 100%;
+    display: table;
+    }
+    .zmenu-moreBtn {
+    display: inline-block;
+    font-family: 'proxima_novasemibold';
+    color: #03a9f5;
+    padding: 2px 15px;
+    font-size: 16px;
+    margin: 20px 0 0;
+    cursor: pointer;
+    position: relative;
+    }
+    .zgh-megaMenuPro .zgh-menuItem {
+    width: 33.33%;
+    float: left;
+    }
+    .zgh-menuItem a {
+    color: #000;
+    display: block;
+    position: relative;
+    padding: 15px 15px 10px 55px;
+    margin-bottom: 15px;
+    }
+    .zgh-menuItem p {
+    font-size: 18px;
+    margin: 0 0 5px;
+    line-height: 20px;
+    font-family: 'proxima_novasemibold', Arial, Helvetica, sans-serif;
+    color: #000;
+    }
+    .zgh-menuItem em {
+    font-size: 13px;
+    line-height: 18px;
+    display: block;
+    font-style: normal;
+    color: #000;
+    }
+    
+
+
+
+
+
+
+    .zgh-utilities {
+        float: right;
+    }
+    .zgh-accounts a {
+        font-family: 'proxima_novasemibold', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 6px 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+    }
+    .zgh-accounts {
+    padding-left: 10px;
+    display: inline-block;
+    }
+    .zgh-login {
+        display: inline-block;
+        color: #f0483e;
+    }
+    .zgh-signup {
+        display: inline-block;
+    color: #fff;
+    background: #f0483e;
+    }
+.product-header {
+    position: absolute;
+  width: 100%;
+  background: none!important;
+  z-index: 9;
+}
+    .product-logo {
+    background-image: url(../assets/product-icon_1x.png)!important;
+    background-repeat: no-repeat;
+    background-position: 0!important;
+    background-size: contain!important;
+    height: 40px;
+    padding: 0 0 0 50px!important;
+    margin-top: 15px;
+    line-height: 45px;
+    color: #333;
+    font-family: proxima_nova_rgregular,Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    float: left;
+    }
+    .product-header-inner {
+        max-width: 1280px;
+      margin: 0 auto;
+      overflow: hidden;
+      position: relative;
+      z-index: 9;
+    }
+    .product-menu {
+        float: right;
+    }
+    .product-menu li {
+    float: left;
+    margin-left: 40px;
+    }
+    .product-menu li a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 25px 0;
+    color: #333;
+    }
+    .product-header-top .product-logo,
+    .product-header-top .product-menu li a {
+    color: #333;
+    }
+    .slide {
+    display: none;
+    }
+    .product-header-top {
+        height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: #fff;
+    max-width: 100%;
+    transition: 0.25s ease 0s;
+    -moz-transition: 0.25s ease 0s;
+    -ms-transition: 0.25s ease 0s;
+    -o-transition: 0.25s ease 0s;
+    -webkit-transition: 0.25s ease 0s;
+    margin: 0 auto;
+    z-index: 100;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .product-header-top .product-header-inner .product-logo {
+    margin: 4px;
+    line-height: 45px;
+    }
+    .product-header-top .zgh-accounts {
+    float: right;
+    padding: 0;
+    margin: 7px 10px 7px 15px;
+    }
+    .product-header-top .product-header-inner .product-logo, .product-header .product-logo {
+    background-image: url(../assets/product-icon_1x.png)!important;
+    background-image: -webkit-image-set(url(../assets/product-icon_1x.png) 1x,url(../assets/in/gst/images/product-icon_2x.png) 2x)!important;
+    background-repeat: no-repeat;
+    background-position: 0!important;
+    background-size: contain!important;
+    height: 40px;
+    }
+    .product-header-top .zgh-accounts,
+    .product-header-top .zgh-accounts * {
+    box-sizing: border-box;
+    }
+
+    .product-header-top .zgh-accounts {
+    float: right;
+    padding: 0;
+    margin: 7px 10px 7px 15px
+    }
+
+    .product-header-top .zgh-signup {
+    font-size: 12px
+    }
+
+    .product-header-top .zgh-login {
+    display: none !important
+    }
+
+    .product-header-top .product-header-inner {
+    max-width: 100%;
+    border: none;
+    padding: 0 0 0 20px;
+    }
+
+    .product-header-top .product-logo {
+    background-image: url("../assets/product-icon_1x.png");
+    background-position: left -377px;
+    height: 52px;
+    line-height: 54px;
+    margin: 0;
+    padding: 0 0 0 75px;
+    background-repeat: no-repeat;
+    }
+
+    .product-header-top .signing {
+    margin: 0 0 0 20px;
+    }
+
+    .product-header-top .product-menu li a {
+    padding: 15px 0 16px;
+    }
+.main {
+  overflow: hidden;
+  clear: both;
+}
