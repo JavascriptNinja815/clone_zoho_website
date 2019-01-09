@@ -265,12 +265,68 @@
     color: #3c73dc;
 }
 
+.pricing-faq-sec {
+    background-color: #fafafa;
+    padding: 0 30px;
+    margin-top: 80px;
+}
+.price-faq {
+    border-top: none;
+    padding: 25px 0 0;
+}
+.pricing-part {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+.price-faq h1, .price-faq h3 {
+    font-family: proxima_novasemibold,proxima_nova_rgregular,Arial,Helvetica,sans-serif;
+}
+.price-faq h1 {
+    padding: 0;
+}
+.pricing-part h1, .pricing-page-wrap h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    line-height: 35px;
+    max-width: 700px;
+    margin: 30px auto 30px;
+    text-align: center;
+}
+.price-faq ul {
+    overflow: hidden;
+}
+.price-faq li {
+    float: left;
+    margin-bottom: 60px;
+    padding-right: 10%;
+    text-align: left;
+    width: 45%;
+}
+.price-faq li:nth-child(2n+2) {
+    padding-right: 0;
+}
+.price-faq li h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.price-faq li p {
+    font-family: proxima_nova_rgregular,Arial,Helvetica,sans-serif;
+    line-height: 27px;
+    font-size: 15px;
+}
 
-
-
-
-
-
+.price-faq li p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    font-weight: 400;
+}
+.price-faq a {
+    color: #2492e7;
+}
 
 @media screen and (min-width: 1200px) {
 .pricing-page-inner-wrap.col3 {

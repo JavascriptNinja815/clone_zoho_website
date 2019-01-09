@@ -326,59 +326,6 @@
     font-weight: 600;
 	}
 
-	.footer {
-	    background: #f1f1f1;
-	    color: #919293;
-	    padding: 40px 0;
-	    text-align: center;
-	    border-top: none;
-	}
-	.books-footer {
-    max-width: 80%;
-    margin: 0 auto;
-    border-bottom: 1px solid #e2e2e2;
-	}
-	.books-footer-content {
-    padding: 20px;
-	}
-	.books-footer-content img {
-    vertical-align: middle;
-    margin: 20px;
-	}
-	.books-footer-desc {
-    display: inline-block;
-    color: #333;
-    vertical-align: middle;
-    text-align: left;
-    padding: 0 30px;
-	}
-	.common-footer {
-    padding: 20px 10px;
-    color: #919293;
-    text-align: center;
-	}
-	.common-footer ul {
-    margin: 0 auto 15px;
-    max-width: 790px;
-    overflow: hidden;
-    padding: 0 3%;
-	}
-	.common-footer li:first-child {
-    border-left: medium none;
-	}
-	.common-footer li {
-    border-left: 1px solid #ccc;
-    display: inline-block;
-    line-height: 0;
-    overflow: hidden;
-    padding: 0 12px;
-	}
-	.common-footer li a {
-    color: #333333;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-	}
 @media screen and (min-width: 1225px) {
 	.steps-tab .module {
     background-image: url(https://www.zoho.com/in/gst/images/brush_1x.png);
